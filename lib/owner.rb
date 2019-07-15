@@ -59,6 +59,5 @@ class Owner
     @cats.each {|cat| cat.owner = nil}
     @dogs.each {|dog| dog.owner = nil}
     self.reset_all
-    end
   end
 end
