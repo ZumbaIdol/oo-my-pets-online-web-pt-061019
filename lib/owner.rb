@@ -61,4 +61,6 @@ class Owner
     @cats.clear
     @dogs = []
   end
+  
+  def 
 end
