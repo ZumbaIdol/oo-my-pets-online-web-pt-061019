@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
   attr_reader :name, :species
-  attr_accessor :cats, :dogs, :pets
+  attr_accessor :cats, :dogs
   
   @@all = []
   @@count = 0
@@ -13,7 +13,6 @@ class Owner
     @@count += 1
     @cats = []
     @dogs = []
-    @pets = []
 
   end
   
