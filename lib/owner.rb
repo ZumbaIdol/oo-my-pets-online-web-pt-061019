@@ -59,5 +59,6 @@ class Owner
     @cats.each {|cat| cat.owner = nil}
     @dogs.each {|dog| dog.owner = nil}
     @owner.cats << []
+    @owner.dogs << []
   end
 end
