@@ -59,5 +59,4 @@ class Owner
     @cats.collect {|cat| cat.owner = nil}
     @dogs.collect {|dog| dog.owner = nil}
   end
-  self.count - 1
 end
