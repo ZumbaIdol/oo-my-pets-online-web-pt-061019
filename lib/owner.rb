@@ -56,9 +56,7 @@ class Owner
   def sell_pets
     @cats.each {|cat| cat.mood = "nervous"}
     @dogs.each {|dog| dog.mood = "nervous"}
-    # @cats.each {|cat| cat.owner = nil}
-    # @dogs.each {|dog| dog.owner = nil}
-    @owner.cats.count = nil
-    @owner.dogs.count = nil
+    @cats.each {|cat| cat.owner = nil}
+    @dogs.each {|dog| dog.owner = nil}
   end
 end
