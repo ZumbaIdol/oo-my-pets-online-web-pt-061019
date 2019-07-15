@@ -58,6 +58,6 @@ class Owner
     @dogs.each {|dog| dog.mood = "nervous"}
     # @cats.each {|cat| cat.owner = nil}
     # @dogs.each {|dog| dog.owner = nil}
-    @owner.count - 1
+    @owner.count -= 1
   end
 end
