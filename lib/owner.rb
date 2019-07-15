@@ -59,5 +59,5 @@ class Owner
     @cats.collect {|cat| cat.owner = nil}
     @dogs.collect {|dog| dog.owner = nil}
   end
-  @@all.clear
+  self.reset_all
 end
