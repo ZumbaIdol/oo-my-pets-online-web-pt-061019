@@ -58,5 +58,6 @@ class Owner
     @dogs.collect {|dog| dog.mood = "nervous"}
     @cats.collect {|cat| cat.owner = nil}
     @dogs.collect {|dog| dog.owner = nil}
+    @@count -= 1
   end
 end
